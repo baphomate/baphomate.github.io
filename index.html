@@ -1,8 +1,96 @@
-
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Baphomate Inc</title>
-    </head>
-  <body>
-    hello</body>
-  </html>
+    <style>
+        body {
+            background: black;
+            font-size: 16px;
+            font-family: sans-serif;
+            
+            height: 100vmax;
+        }
+        @font-face {
+            font-family: "Old English";
+            src: url(fonts/OLDENGL.TTF);
+        }
+        #judul {
+            padding: 5px;
+            max-width: 100%;
+            width: 720px;
+            margin: auto auto;
+            color: cyan;
+            text-align: center;
+        }
+        h1 {
+        	font-weight: bold;
+        	text-align: center;
+        	font-family: "Old English";
+        	font-size: 50px;
+        	color: green;
+       }
+       p {
+           font-size: 16px;
+           color: cyan;
+       }
+       .bo {
+           background: black;
+           border: solid white;
+           border-radius: 10px;
+       }
+       #typing {
+            width: 30%;
+            color: #676767;
+            float: left;
+            font-size: 16px;
+            margin: 1px;
+            padding: 10px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 6s steps(24) 1s infinite;
+        }
+        #typing span{
+            color:green;
+        }
+        #crow {
+            float: left;
+            margin-top: 1%;
+            margin-bottom: 0%;
+            color: green;
+            font-size: 19px;
+            animation: crow 0.4s linear 0s infinite;
+        }
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 250px;
+            }
+        }
+        @keyframes crow {
+            from {
+                opacity: 0;
+        }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><img style="width:100%" src="img/logo.jpg"</center>
+    <div id="judul"><h1>Baphomate Inc</h1></div>
+    <div class="bo">
+        <div id="typing">Welcome to <span>Baphomate Inc</span></div><div id="crow">_</div>
+        <p style="color: black;">.</p>
+    </div> 
+    <center><p>Baphomate Inc. Is an organization of a team of ethical Hackers, not Satanists but Internet Satanists surfing the cyber world.</p></center>
+
+</body>
+</html>
+    
