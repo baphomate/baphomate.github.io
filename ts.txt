@@ -1,0 +1,7 @@
+
+                        <p><a class="social-media-icon" href="https://facebook.com/baphomate.inc"><span class="fab fa-facebook"></span>Baphomate</a>
+                        <p><a class="social-media-icon" href="https://instagram.com/baphomate.inc"><span class="fab fa-instagram"></span>Baphomate Inc</a></p>
+                        <p><a class="social-media-icon" href="https://chat.whatsapp.com/JnaDIE5V0TK3kYYbN2TxF4"><span class="fab fa-whatsapp"></span>Group Whatsapp</a>
+                        <p><a class="social-media-icon" href="https://link_social_mendia_anda"><span class="fab fa-youtube"></span>Baphomate Inc</a>
+                        <p><a class="social-media-icon" href="https://github.com/baphomate"><span class="fab fa-github"></span>Github baphomate</a>
+                    
