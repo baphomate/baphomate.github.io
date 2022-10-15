@@ -1,3 +1,4 @@
+
 body {
     font-size: 15pt;
     height: 100%;
@@ -138,7 +139,7 @@ width: 100%;
 margin-bottom: 0%;
 height: 0%;   /* Contoh tinggi footer 60px */
 }
-.btn, .btn:active, .btn:visited, .btn:active {
+.bttn, .bttn:active, .bttn:visited, .bttn:active {
 	display: block;
 	text-align: center;
 	margin: 10px 0;
@@ -156,7 +157,7 @@ height: 0%;   /* Contoh tinggi footer 60px */
 	transition: background 0.15s ease-in-out;
 }
 
-.btn:hover {
+.bttn:hover {
 	 background-color: #357825;
 }
 
@@ -487,3 +488,16 @@ header{
   background: #ff6600;
   color: white;
 }
+.kira{
+    /* background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%); */
+  	background: linear-gradient(330deg, #ff0000 0%, #31e400 25%, #00f7ff 50%, #7f00ff 75%, #ff0000 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite; 
+    }
+@keyframes animate{
+      to {
+        background-position: 200% center;
+      }
+    }
